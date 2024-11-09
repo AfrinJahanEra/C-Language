@@ -2,6 +2,10 @@
 
 int main(){
 
+    printf("*****************************************\n");
+    printf("*      Closest Departure Time Finder    *\n");
+    printf("*****************************************\n");
+
     int h, m,total_passing_hour   ;
     printf("Enter a 24-hour time: ");
     scanf("%2d :%2d", &h, &m);

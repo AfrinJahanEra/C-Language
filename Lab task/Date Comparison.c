@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main (){
+
+    printf("*****************************************\n");
+    printf("*            Date Comparison            *\n");
+    printf("*****************************************\n");
+
     int m1, d1,y1 ,m2 ,d2, y2, a, b, c ;
     printf("Enter first date(mm/dd/yy):");
     scanf("%d/%d/%d",&m1 ,&d1 ,&y1);

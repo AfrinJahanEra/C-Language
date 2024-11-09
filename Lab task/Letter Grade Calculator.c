@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main(){
+
+    printf("*****************************************\n");
+    printf("*          Letter Grade Calculator      *\n");
+    printf("*****************************************\n");
+    
     int grade, case_no;
 
     printf("Enter numerical grade: ");
