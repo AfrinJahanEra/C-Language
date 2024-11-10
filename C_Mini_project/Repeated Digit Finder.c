@@ -1,10 +1,13 @@
-#include <stdbool.h>      /* C99 only */
+// repeated_digit_finder.c
 #include <stdio.h>
+#include <stdbool.h>
 
-int main(void) {
+int main() {
+    printf("===========================\n");
+    printf("   REPEATED DIGIT FINDER   \n");
+    printf("===========================\n\n");
 
-    bool digit_seen[10] = {false}, 
-         repeated[10] = {false};
+    bool digit_seen[10] = {false}, repeated[10] = {false};
     int digit, i;
     long n;
 
@@ -18,9 +21,8 @@ int main(void) {
         digit_seen[digit] = true;
         n /= 10;
     }
-    
-    printf("Repeated digit(s): ");
 
+    printf("Repeated digit(s): ");
     for (i = 0; i < 10; i++) {
         if (repeated[i])
             printf("%d ", i);
